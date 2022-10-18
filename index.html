@@ -6,17 +6,20 @@
     <title>Todo App</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script> -->
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
 </head>
 <body>
     <h1><span class="heading">TODO</span>App</h1>
     <div class="input_div">
-        <input type="text" class="input" placeholder="Add your note...">
-        <button class="addButton"><i class="fas fa-plus"></i></button>
+        <input type="text" id="input" class="input" placeholder="Add your note...">
+        <button class="addButton" onclick="addNote()"><i class="fas fa-plus"></i></button>
     </div>
-
-    <div class="container">
+    <div id="container" class="container">
     </div>
     <script type="text/javascript" src="./index.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    
 </body>
 </html>
